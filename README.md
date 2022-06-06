@@ -17,12 +17,14 @@ Git is the most popular version Control System that helps to **manage** project 
 ## Repository creation overview
 
 1. Create a Repository in GitHub
- ```touch README.md
+ ```
+touch README.md
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin git@github.com:alexpchin/<reponame>.git
-git push -u origin master```
+git push -u origin master
+```
 
 2. Clone repository locally  ```git clone repository link```
 
